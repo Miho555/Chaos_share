@@ -2,6 +2,8 @@
 
 平衡点を出力後，ベクトルを可視化するグラフ作成(./image.jpg)
 
+![image](https://user-images.githubusercontent.com/49547067/93186939-2c541480-f77a-11ea-9866-2e4c2249e318.jpg)
+
 
 # 必要なライブラリ
 
