@@ -1,4 +1,5 @@
 # 2020.8.22 Vector flow map
+# -*- coding: utf-8 -*-
 
 import sympy as sm
 import numpy as np
@@ -36,10 +37,12 @@ def main():
 	y_p = - x_p**3 + 2*x_p**2 + x_p - 2
 
 	y_pp = arange(-4, 4, 0.1)  # x座標を-10 から 10 まで 0.1 きざみで取得
-	x_pp = y_pp
+	x_pp = 0 # y = 0
 
-	plot(x_p, y_p, 'b-')  # f1 plot
-	plot(x_pp, y_pp, 'm-')  # f2 plot
+	# f1 plot
+	plot(x_p, y_p, 'b-')
+	# f2 plot
+	if x_pp > 0: plot(x_pp, y_pp, 'm-')
 
 	for point in fp:
 		plot(point[0],point[1],"red", marker = "o", markersize = 5.0)
