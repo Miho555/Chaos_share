@@ -4,17 +4,19 @@
 
 <img src="https://user-images.githubusercontent.com/49547067/93186939-2c541480-f77a-11ea-9866-2e4c2249e318.jpg" width="320px">
 
-# 必要なライブラリ
+## 必要なライブラリ
 
 * sympy 
 * numpy
 * scipy
 * pylab
 
-# 基本的な使い方
+## 基本的な使い方
 
 ```bash
 git clone https://github.com/~
 python3 pp.py
 ```
-## 目的
+## 作成目的
+
+授業課題の一つとして作成．今後は，研究室での勉強に役立てるために改良予定．
